@@ -7,7 +7,7 @@ st.set_page_config(page_title="Kalkulator pH & pOH", layout="centered")
 st.title("🧪 Kalkulator pH & pOH Larutan")
 
 # Description
-st.write("""
+st.write_stream("""
 Aplikasi ini membantu menghitung nilai pH dan pOH larutan berdasarkan input konsentrasi ion [H⁺] atau [OH⁻].
 """)
 
